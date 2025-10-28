@@ -1,0 +1,6 @@
+{
+  "redis_host": "your-redis-host.redis-cloud.com",
+  "redis_port": 12345,
+  "redis_password": "your-redis-password-here",
+  "openai_api_key": "sk-your-openai-api-key-here"
+}

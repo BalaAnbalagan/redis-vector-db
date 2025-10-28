@@ -1,0 +1,84 @@
+# Credentials and Config Files - NEVER COMMIT THESE!
+redis_config.json
+azure_redis_config.txt
+.env
+
+# OpenAI API Keys
+*.key
+
+# Docker and local deployment files (using Redis Cloud instead)
+docker-compose.yml
+azure_*.sh
+setup_instructions.md
+QUICKSTART.md
+
+# Personal files (not needed in public repo)
+FINAL_STATUS.md
+SUBMISSION_GUIDE.md
+
+# Redundant Python scripts
+redis_cloud_notebook_config.py
+redis_vector_demo.py
+
+# Redundant documentation - keeping only README
+ALL_SET_TO_RUN.md
+ASSIGNMENT_CHECKLIST.md
+CLOUD_QUICKSTART.md
+CLOUD_SETUP_OPTIONS.md
+README_SECURITY.md
+SECURITY_SETUP.md
+SETUP_COMPLETE.md
+START_HERE.md
+YOUR_SETUP_COMPLETE.md
+redis_vector_database.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (large dataset)
+data/
+*.zip
+*.csv
+vector_database_wikipedia_articles_embedded.zip
+vector_database_wikipedia_articles_embedded.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
