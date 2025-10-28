@@ -20,6 +20,10 @@ SUBMISSION_GUIDE.md
 redis_cloud_notebook_config.py
 redis_vector_demo.py
 
+# Notebook exports (outputs already in .ipynb)
+*.html
+*.pdf
+
 # Redundant documentation - keeping only README
 ALL_SET_TO_RUN.md
 ASSIGNMENT_CHECKLIST.md
