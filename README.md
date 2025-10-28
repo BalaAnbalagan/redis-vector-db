@@ -1,8 +1,8 @@
 # Redis Vector Database with OpenAI Embeddings
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BalaAnbalagan/redis-vector-db-assignment/blob/main/redis_vector_database.ipynb)
-[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://github.com/BalaAnbalagan/redis-vector-db-assignment/blob/main/redis_vector_database.ipynb)
-[![View HTML](https://img.shields.io/badge/View-HTML%20Export-blue)](https://github.com/BalaAnbalagan/redis-vector-db-assignment/blob/main/redis_vector_database.html)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BalaAnbalagan/redis-vector-db/blob/main/redis_vector_database.ipynb)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://github.com/BalaAnbalagan/redis-vector-db/blob/main/redis_vector_database.ipynb)
+[![View HTML](https://img.shields.io/badge/View-HTML%20Export-blue)](https://github.com/BalaAnbalagan/redis-vector-db/blob/main/redis_vector_database.html)
 
 A practical implementation of semantic search using Redis as a vector database, demonstrating how modern AI applications store and search through embedded text using vector similarity.
 
@@ -82,8 +82,8 @@ Results (ranked by similarity)
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/BalaAnbalagan/redis-vector-db-assignment.git
-   cd redis-vector-db-assignment
+   git clone https://github.com/BalaAnbalagan/redis-vector-db.git
+   cd redis-vector-db
    ```
 
 2. **Install Python dependencies**
@@ -274,7 +274,7 @@ Group similar content together or classify new content based on similarity to la
 ## Project Structure
 
 ```
-redis-vector-db-assignment/
+redis-vector-db/
 ├── redis_vector_database.ipynb    # Main tutorial notebook
 ├── redis_vector_database.html     # Exported notebook (view results)
 ├── redis_config.json              # Your credentials (NOT in Git)
